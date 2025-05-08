@@ -1,6 +1,5 @@
 ### benchmark.py
 
-```python
 import os
 import time
 import csv
@@ -87,4 +86,3 @@ print(f"\nBenchmark complete!")
 print(f"Total time for {successful_inferences} inferences: {end_time - start_time:.2f} seconds")
 print(f"Average time per inference: {(end_time - start_time)/successful_inferences:.4f} seconds")
 print(f"Results saved to {output_csv}")
-```
